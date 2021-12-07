@@ -30,7 +30,12 @@
   background-color: #5b3d79;
   height: auto;
 }
-.mainherotext {
+.herotext {
+  font-family: "Poppins", sans-serif;
+}
+
+.herotextlogo {
+  font-family: "Poppins", sans-serif;
 }
 
 /* 'Featured Destinations' Outside Box */
@@ -55,7 +60,7 @@
   display: flex;
   font-family: "Poppins", sans-serif;
   color: #fff;
-  justify-content: space-between    ;
+  justify-content: space-between;
 }
 
 /* 'Featured Destinations' Inside Boxes */
@@ -103,4 +108,13 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* This is a test commit */
+.leftherocircle {
+  height: 100px;
+  width: 100px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+/* border-radius: 50%; "Makes An Object or image A Circle" */
