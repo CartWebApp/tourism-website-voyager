@@ -1,0 +1,92 @@
+/* Don't forget that media queries are required for this project */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap");
+
+
+/* Hides the scroll bar but still allows scrolling on website */
+element::-webkit-scrollbar {
+  -ms-overflow-style: none; /* Internet Explorer, Edge *.
+  scrollbar-width: none; /* Firefox */
+  overflow-y: scroll; 
+  display: none; /* Chrome, Safari, & OperaGX */
+}
+
+/* Adding a css tag to the body tag effects all attributes inside of the body tag <body></body> */
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Hero Image Buttons / Navigation Bar Buttons */
+.backofnav {
+  background-color: #44275d;
+  padding: 5px 0px 5px 0px;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+.navinfo {
+  color: white;
+  font-size: large;
+}
+.logo {
+  color: white;
+  font-size: x-large;
+}
+
+.mainhero {
+  height: auto;
+  background-color: #5b3d79;
+}
+
+/* 'Featured Destinations' Outside Box */
+.fdest {
+  height: auto;
+  background-color: #44275d;
+}
+
+/* 'Featured Destinations' Outside Box Text */
+.phead {
+  display: flex;
+  color: white;
+  font-size: 40px;
+  justify-content: center;
+}
+
+/* 'Featured Destinations' Text Inside Boxes */
+.podium {
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+}
+
+/* 'Featured Destinations' Inside Boxes */
+.infosum {
+  width: 31%;
+  height: 800px;
+  text-align: center;
+  border-radius: 12px;
+  background-color: #5b3d79;
+}
+
+.footer {
+  padding: 25px;
+  display: flex;
+  background-color: #44275d;
+  justify-content: space-between;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.leftherocircle {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  display: inline-flex;
+  background-color: #fff;
+}
