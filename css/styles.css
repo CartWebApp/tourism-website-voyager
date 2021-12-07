@@ -1,108 +1,103 @@
 /* Don't forget that media queries are required for this project */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap");
 
-.body{
-    margin: 0;
+.body {
+  margin: 0;
 }
-.backofnav{
-background-color: #44275D;
-padding: 5px 0px 5px 0px  ;
-
+.backofnav {
+  background-color: #44275d;
+  padding: 5px 0px 5px 0px;
 }
 
 .nav {
-display: flex;
-justify-content: space-around;
-list-style: none;
-    
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
 }
-.navinfo{
-color: white;
-font-size: large;
+.navinfo {
+  color: white;
+  font-size: large;
 }
-.logo{
-color:white;
-font-size: x-large;
-}
-
-.mainhero{
-background-color: #5B3D79;
-height: auto;
-}
-.mainherotext{
-
+.logo {
+  color: white;
+  font-size: x-large;
 }
 
-.fdest{
- background-color: #44275D;
- height: auto;
- padding: 25px;
- 
+.mainhero {
+  background-color: #5b3d79;
+  height: auto;
+}
+.mainherotext {
 }
 
-.phead{
- color:white;
- font-size: 25px;
- display: flex;
- justify-content: center;
+/* 'Featured Destinations' Outside Box */
+.fdest {
+  background-color: #44275d;
+  height: auto;
+  padding: 70px;
+  border-radius: 12px;
 }
 
-.podium{
-    display: flex;
- justify-content: space-between;
- 
-    
+/* 'Featured Destinations' Outside Box Text */
+.phead {
+  color: white;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
 }
 
-.infosum{
-    width: 30%;
-    background-color: #5B3D79;
-    height: 250px;
-    text-align: center;
- 
+/* 'Featured Destinations' Text Inside Boxes */
+.podium {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  justify-content: space-between    ;
 }
 
-.subhead{
-
+/* 'Featured Destinations' Inside Boxes */
+.infosum {
+  width: 31%;
+  background-color: #5b3d79;
+  height: 800px;
+  text-align: center;
+  border-radius: 12px;
 }
 
-.text{
-
+.subhead {
 }
 
-.learnmore{
-
+.text {
 }
 
-.aboutus{
-
+.learnmore {
 }
 
-.uinfo{
-
+.aboutus {
 }
 
-.topuinfo{
-
+.uinfo {
 }
 
-.bottomuinfo{
-
+.topuinfo {
 }
 
-.footer{
-    background-color: #44275D;
-    display: flex;
- justify-content: space-between;
- padding: 25px;
+.bottomuinfo {
 }
 
-.c{
-
- 
+.footer {
+  background-color: #44275d;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
 }
 
-.copyright{
+.c {
+}
 
+.copyright {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
 }
 
 /* This is a test commit */
