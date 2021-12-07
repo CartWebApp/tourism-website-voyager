@@ -4,9 +4,12 @@
 .body {
   margin: 0;
 }
+
+/* Hero Image Buttons / Navigation Bar Buttons */
 .backofnav {
   background-color: #44275d;
   padding: 5px 0px 5px 0px;
+  font-family: "Poppins", sans-serif;
 }
 
 .nav {
