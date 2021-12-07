@@ -87,6 +87,10 @@ body {
   width: 600px;
   height: 600px;
   border-radius: 50%;
-  display: inline-flex;
-  background-color: #fff;
+  display: inline-block;
 }
+
+
+/* border-radius: 50%; "Makes An Object or image A Circle" */
+
+/* This is a test commit by , Aidan */
