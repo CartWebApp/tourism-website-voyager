@@ -81,9 +81,9 @@
 <h2>Student Requirements :</h2>
 
 _Each student should turn in the following :_
-1.• Link to live website hosted on Netlify
+1. • Link to live website hosted on Netlify
 
-2.• Link to the teams GitHub repository for the project.
+2. • Link to the teams GitHub repository for the project.
          
 <!-- Chart Header -->
 <h2>Each Team Members Country :</h2>
