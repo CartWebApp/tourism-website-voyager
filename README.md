@@ -18,17 +18,17 @@
 <!-- Content Project Requirements -->
 <h2>Project Requirements • Content :</h2>
 
-<p>ㅤㅤ• A <i>‘Home’</i> page that is visually appealing and features content sections that use images and text to introduce and link to the other ㅤㅤpages of your website.</p>
+<p>ㅤㅤ• A <i>‘Home’</i> page that is visually appealing and features content sections that use images and text to introduce and link to the other pages of your website.</p>
 
 <p>ㅤㅤ• A <i>‘Destinations’</i> page featuring an overview of each country your travel agency offers packages to.</p>
 
 <p>ㅤㅤ• Each destination should feature at least 3 pages:</p>
 
-<p>ㅤㅤㅤㅤㅤ∙ An <i>‘About’</i> (e.g. About Fiji) page featuring the location, demographics, exports, major cities and natural locations, cultural ㅤㅤㅤㅤㅤㅤoverview, and a brief history of the country.</p>
+<p>ㅤㅤㅤㅤㅤ∙ An <i>‘About’</i> (e.g. About Fiji) page featuring the location, demographics, exports, major cities and natural locations, cultural overview, and a brief history of the country.</p>
 
-<p>ㅤㅤㅤㅤㅤ∙ A <i>‘Discover’</i> (e.g. Discover Fiji) page featuring the cultural traditions, associated locales, and other notable tourist ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤdestinations and activities.</p>
+<p>ㅤㅤㅤㅤㅤ∙ A <i>‘Discover’</i> (e.g. Discover Fiji) page featuring the cultural traditions, associated locales, and other notable tourist destinations and activities.</p>
 
-<p>ㅤㅤㅤㅤㅤ∙ A <i>‘Visit’</i> (e.g. Visit Fiji) page detailing the travel options to the country, lodging options (especially anything culturally or ㅤㅤㅤㅤㅤㅤㅤhistorically significant), and in-country transportation options.</p>
+<p>ㅤㅤㅤㅤㅤ∙ A <i>‘Visit’</i> (e.g. Visit Fiji) page detailing the travel options to the country, lodging options (especially anything culturally or historically significant), and in-country transportation options.</p>
 
 <p>ㅤㅤ• Each page should have a full-width ‘hero’ image near the top with the page title overlaid (using CSS not Photoshop).</p>
 
@@ -55,7 +55,7 @@
   
 <p>ㅤㅤ• Valid, semantic HTML/CSS (should pass the W3C HTML validator)</p>
 
-<p>ㅤㅤㅤㅤㅤ∙ Semantic HTML uses more than “divs”. It incorporates, but is not limited to, the header, nav, main, section, article, aside, and ㅤㅤㅤㅤㅤfooter elements to accurately describe the content of the element.</p>
+<p>ㅤㅤㅤㅤㅤ∙ Semantic HTML uses more than “divs”. It incorporates, but is not limited to, the header, nav, main, section, article, aside, and footer elements to accurately describe the content of the element.</p>
 
 <p>ㅤㅤ• <i>Multi</i>-column layout using CSS Flexbox</p>
   
