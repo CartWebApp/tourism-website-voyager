@@ -55,7 +55,7 @@
   
 <p>ㅤㅤ• Valid, semantic HTML/CSS (should pass the W3C HTML validator)</p>
 
-<p>ㅤㅤㅤㅤㅤ∙ Semantic HTML uses more than “divs”. It incorporates, but is not limited to, the header, nav, main, section, article, aside, and footer elements to accurately describe the content of the element.</p>
+<p>ㅤㅤㅤㅤㅤ∙ Semantic HTML uses more than “divs”. It incorporates, but is not limited to, the header, nav, main, section, article, aside, and footer ㅤㅤㅤelements to accurately describe the content of the element.</p>
 
 <p>ㅤㅤ• <i>Multi</i>-column layout using CSS Flexbox</p>
   
