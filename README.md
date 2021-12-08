@@ -51,7 +51,7 @@
 
 3. • Consistently placed and styled navigation to all pages on each page
  
-4∙ • The current page should not be removed from the navigation but marked as “active” and styled separately through css.
+4. • The current page should not be removed from the navigation but marked as “active” and styled separately through css.
   
 5. • Valid, semantic HTML/CSS (should pass the W3C HTML validator)
 
