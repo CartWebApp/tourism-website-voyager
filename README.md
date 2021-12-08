@@ -18,64 +18,64 @@
 <!-- Content Project Requirements -->
 <h2>Project Requirements • Content :</h2>
 
-<p>ㅤㅤ• A <i>‘Home’</i> page that is visually appealing and features content sections that use images and text to introduce and link to the other ㅤㅤㅤㅤㅤpages of your website.</p>
+<p> • A <i>‘Home’</i> page that is visually appealing and features content sections that use images and text to introduce and link to the other ㅤㅤㅤㅤㅤpages of your website.</p>
 
-<p>ㅤㅤ• A <i>‘Destinations’</i> page featuring an overview of each country your travel agency offers packages to.</p>
+<p> • A <i>‘Destinations’</i> page featuring an overview of each country your travel agency offers packages to.</p>
 
-<p>ㅤㅤ• Each destination should feature at least 3 pages:</p>
+<p>• Each destination should feature at least 3 pages:</p>
 
-<p>ㅤㅤㅤㅤㅤ∙ An <i>‘About’</i> (e.g. About Fiji) page featuring the location, demographics, exports, major cities and natural locations, cultural overview, ㅤㅤㅤㅤㅤand a brief history of the country.</p>
+<p>  ∙ An <i>‘About’</i> (e.g. About Fiji) page featuring the location, demographics, exports, major cities and natural locations, cultural overview, ㅤㅤㅤㅤㅤand a brief history of the country.</p>
 
-<p>ㅤㅤㅤㅤㅤ∙ A <i>‘Discover’</i> (e.g. Discover Fiji) page featuring the cultural traditions, associated locales, and other notable tourist destinations and ㅤㅤㅤㅤㅤactivities.</p>
+<p>  ∙ A <i>‘Discover’</i> (e.g. Discover Fiji) page featuring the cultural traditions, associated locales, and other notable tourist destinations and ㅤㅤㅤㅤㅤactivities.</p>
 
-<p>ㅤㅤㅤㅤㅤ∙ A <i>‘Visit’</i> (e.g. Visit Fiji) page detailing the travel options to the country, lodging options (especially anything culturally or historically ㅤㅤㅤㅤㅤsignificant), and in-country transportation options.</p>
+<p>  ∙ A <i>‘Visit’</i> (e.g. Visit Fiji) page detailing the travel options to the country, lodging options (especially anything culturally or historically ㅤㅤㅤㅤㅤsignificant), and in-country transportation options.</p>
 
-<p>ㅤㅤ• Each page should have a full-width ‘hero’ image near the top with the page title overlaid (using CSS not Photoshop).</p>
+<p> • Each page should have a full-width ‘hero’ image near the top with the page title overlaid (using CSS not Photoshop).</p>
 
-<p>ㅤㅤ• Each content item should feature multiple paragraphs of information and supporting images.</p>
+<p> • Each content item should feature multiple paragraphs of information and supporting images.</p>
 
-<p>ㅤㅤ• Consistent color and font usage that enhances the legibility of your information</p>
+<p> • Consistent color and font usage that enhances the legibility of your information</p>
 
-<p>ㅤㅤ• Content should be free of punctuation, grammar, and spelling errors.</p>
+<p> • Content should be free of punctuation, grammar, and spelling errors.</p>
 
-<p>ㅤㅤ• Copyrighted photos must be credited to the author/publisher.</p>
+<p> • Copyrighted photos must be credited to the author/publisher.</p>
 
-<p>ㅤㅤ• References to the sites used in your research should be located in the footer of the page(s) the source is used on.</p>
+<p> • References to the sites used in your research should be located in the footer of the page(s) the source is used on.</p>
 
 <!-- Technical Project Requirements -->
 <h2>Project Requirments • Technical :</h2>
 
-<p>ㅤㅤ• <i>A detailed Figma prototype</i> should be completed prior to writing any code.</p>
+<p> • <i>A detailed Figma prototype</i> should be completed prior to writing any code.</p>
 
-<p>ㅤㅤ• <i>Daily commits</i> to a shared Github repository by each team member during the programming phase.</p>
+<p> • <i>Daily commits</i> to a shared Github repository by each team member during the programming phase.</p>
 
-<p>ㅤㅤ• Consistently placed and styled navigation to all pages on each page</p>
+<p> • Consistently placed and styled navigation to all pages on each page</p>
  
-<p>ㅤㅤㅤㅤㅤ∙ The current page should not be removed from the navigation but marked as “active” and styled separately through css.</p>
+<p>  ∙ The current page should not be removed from the navigation but marked as “active” and styled separately through css.</p>
   
-<p>ㅤㅤ• Valid, semantic HTML/CSS (should pass the W3C HTML validator)</p>
+<p> • Valid, semantic HTML/CSS (should pass the W3C HTML validator)</p>
 
-<p>ㅤㅤㅤㅤㅤ∙ Semantic HTML uses more than “divs”. It incorporates, but is not limited to, the header, nav, main, section, article, aside, and footer ㅤㅤㅤㅤㅤelements to accurately describe the content of the element.</p>
+<p>  ∙ Semantic HTML uses more than “divs”. It incorporates, but is not limited to, the header, nav, main, section, article, aside, and footer ㅤㅤㅤㅤㅤelements to accurately describe the content of the element.</p>
 
-<p>ㅤㅤ• <i>Multi</i>-column layout using CSS Flexbox</p>
+<p> • <i>Multi</i>-column layout using CSS Flexbox</p>
   
-<p>ㅤㅤ• <i>One</i> shared external CSS Stylesheet</p>
+<p> • <i>One</i> shared external CSS Stylesheet</p>
   
-<p>ㅤㅤ• <i>CSS Media Queries</i> that enable your website to function well at any screen size. Minimally your site should adapt to:</p>
+<p> • <i>CSS Media Queries</i> that enable your website to function well at any screen size. Minimally your site should adapt to:</p>
   
-<p>ㅤㅤㅤㅤㅤ∙ <i>Desktop</i> >> ~992px wide</p>
+<p>  ∙ <i>Desktop</i> >> ~992px wide</p>
 
-<p>ㅤㅤㅤㅤㅤ∙ <i>Large Tablet</i> << ~992px wide</p>
+<p>  ∙ <i>Large Tablet</i> << ~992px wide</p>
 
-<p>ㅤㅤㅤㅤㅤ∙ <i>Medium Tablet</i> << ~768px wide</p>
+<p>  ∙ <i>Medium Tablet</i> << ~768px wide</p>
 
-<p>ㅤㅤㅤㅤㅤ∙ <i>Phone</i> << ~480px wide</p>
+<p  ∙ <i>Phone</i> << ~480px wide</p>
 
-<p>ㅤㅤㅤㅤㅤ∙ These widths are starting points and may vary based on your site layout. Fix your site at each width it “breaks” at.</p>
+<p>  ∙ These widths are starting points and may vary based on your site layout. Fix your site at each width it “breaks” at.</p>
 
-<p>ㅤㅤ• Footer including image credits, research citations along with crediting your team and CART.</p>
+<p> • Footer including image credits, research citations along with crediting your team and CART.</p>
   
-<p>ㅤㅤ• No text baked into image(s), you should always type textual information in your editor and overlay it on images with CSS.</p>
+<p> • No text baked into image(s), you should always type textual information in your editor and overlay it on images with CSS.</p>
               
 <!-- Website Requirements Found From https://classroom.google.com/u/3/c/MzgwNTU4NDY3MTky/a/NDM0NjE0Nzg0ODk0/details -->
 <h2>Student Requirements :</h2>
