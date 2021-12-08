@@ -24,11 +24,11 @@
 
 <p>ㅤㅤ• Each destination should feature at least 3 pages:</p>
 
-<p>ㅤㅤㅤㅤㅤ∙ An <i>‘About’</i> (e.g. About Fiji) page featuring the location, demographics, exports, major cities and natural ㅤㅤㅤlocations, cultural overview, and a brief history of the country.</p>
+<p>ㅤㅤㅤㅤㅤ∙ An <i>‘About’</i> (e.g. About Fiji) page featuring the location, demographics, exports, major cities and natural locations, cultural overview, and a brief history of the country.</p>
 
-<p>ㅤㅤㅤㅤㅤ∙ A <i>‘Discover’</i> (e.g. Discover Fiji) page featuring the cultural traditions, associated locales, and other notable tourist destinations and ㅤㅤㅤㅤㅤㅤactivities.</p>
+<p>ㅤㅤㅤㅤㅤ∙ A <i>‘Discover’</i> (e.g. Discover Fiji) page featuring the cultural traditions, associated locales, and other notable tourist destinations and ㅤㅤㅤㅤㅤactivities.</p>
 
-<p>ㅤㅤㅤㅤㅤ∙ A <i>‘Visit’</i> (e.g. Visit Fiji) page detailing the travel options to the country, lodging options (especially anything culturally or historically ㅤㅤㅤㅤㅤㅤsignificant), and in-country transportation options.</p>
+<p>ㅤㅤㅤㅤㅤ∙ A <i>‘Visit’</i> (e.g. Visit Fiji) page detailing the travel options to the country, lodging options (especially anything culturally or historically ㅤㅤㅤㅤㅤsignificant), and in-country transportation options.</p>
 
 <p>ㅤㅤ• Each page should have a full-width ‘hero’ image near the top with the page title overlaid (using CSS not Photoshop).</p>
 
