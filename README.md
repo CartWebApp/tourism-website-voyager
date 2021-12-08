@@ -24,7 +24,7 @@
 
 <p>ㅤㅤ• Each destination should feature at least 3 pages:</p>
 
-<p>ㅤㅤㅤㅤㅤ∙ An <i>‘About’</i> (e.g. About Fiji) page featuring the location, demographics, exports, major cities and natural locations, cultural overview, and a brief history of the country.</p>
+<p>ㅤㅤㅤㅤㅤ∙ An <i>‘About’</i> (e.g. About Fiji) page featuring the location, demographics, exports, major cities and natural ㅤㅤㅤlocations, cultural overview, and a brief history of the country.</p>
 
 <p>ㅤㅤㅤㅤㅤ∙ A <i>‘Discover’</i> (e.g. Discover Fiji) page featuring the cultural traditions, associated locales, and other notable tourist destinations and activities.</p>
 
