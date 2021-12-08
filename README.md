@@ -18,29 +18,29 @@
 <!-- Content Project Requirements -->
 <h2>Project Requirements • Content :</h2>
 
-<p>• A <i>‘Home’</i> page that is visually appealing and features content sections that use images and text to introduce and link to the other pages of your website.</p>
+1. • A <i>‘Home’</i> page that is visually appealing and features content sections that use images and text to introduce and link to the other pages of your website.
 
-<p>• A <i>‘Destinations’</i> page featuring an overview of each country your travel agency offers packages to.</p>
+2. • A <i>‘Destinations’</i> page featuring an overview of each country your travel agency offers packages to.
 
-<p>• Each destination should feature at least 3 pages:</p>
+3. • Each destination should feature at least 3 pages:
 
-<p>∙ An <i>‘About’</i> (e.g. About Fiji) page featuring the location, demographics, exports, major cities and natural locations, cultural overview, and a brief history of the country.</p>
+4.  ∙ An <i>‘About’</i> (e.g. About Fiji) page featuring the location, demographics, exports, major cities and natural locations, cultural overview, and a brief history of the country.
 
-<p>∙ A <i>‘Discover’</i> (e.g. Discover Fiji) page featuring the cultural traditions, associated locales, and other notable tourist destinations and activities.</p>
+5.  ∙ A <i>‘Discover’</i> (e.g. Discover Fiji) page featuring the cultural traditions, associated locales, and other notable tourist destinations and activities.
 
-<p>∙ A <i>‘Visit’</i> (e.g. Visit Fiji) page detailing the travel options to the country, lodging options (especially anything culturally or historically significant), and in-country transportation options.</p>
+6.  ∙ A <i>‘Visit’</i> (e.g. Visit Fiji) page detailing the travel options to the country, lodging options (especially anything culturally or historically significant), and in-country transportation options.
 
-<p>• Each page should have a full-width ‘hero’ image near the top with the page title overlaid (using CSS not Photoshop).</p>
+7. • Each page should have a full-width ‘hero’ image near the top with the page title overlaid (using CSS not Photoshop).
 
-<p>• Each content item should feature multiple paragraphs of information and supporting images.</p>
+8. • Each content item should feature multiple paragraphs of information and supporting images.
 
-<p>• Consistent color and font usage that enhances the legibility of your information</p>
+9. • Consistent color and font usage that enhances the legibility of your information.
 
-<p>• Content should be free of punctuation, grammar, and spelling errors.</p>
+10. • Content should be free of punctuation, grammar, and spelling errors.
 
-<p>• Copyrighted photos must be credited to the author/publisher.</p>
+11. • Copyrighted photos must be credited to the author/publisher.
 
-<p>• References to the sites used in your research should be located in the footer of the page(s) the source is used on.</p>
+12. • References to the sites used in your research should be located in the footer of the page(s) the source is used on.
 
 <!-- Technical Project Requirements -->
 <h2>Project Requirments • Technical :</h2>
