@@ -18,7 +18,7 @@
 <!-- Content Project Requirements -->
 <h2>Project Requirements • Content :</h2>
 
-<p>ㅤㅤ• A <i>‘Home’</i> page that is visually appealing and features content sections that use images and text to introduce and link to the other pages of your website.</p>
+<p>ㅤㅤ• A <i>‘Home’</i> page that is visually appealing and features content sections that use images and text to introduce ㅤㅤㅤand link to the other pages of your website.</p>
 
 <p>ㅤㅤ• A <i>‘Destinations’</i> page featuring an overview of each country your travel agency offers packages to.</p>
 
