@@ -78,6 +78,9 @@
    <a href="https://github.com/Aidan-McCluskey" title="Go to Aidan's GitHub profile"><img src="https://img.shields.io/static/v1?label=Follow&message=Aidan McCluskey&color=blueviolet&logo=github" alt="Aidan's GitHub Account" width="26%"></a>
 </p>
 
+
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=6537049&assignment_repo_type=AssignmentRepo)
+
 <p align="middle">
   <a href="https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg"><img src="https://img.shields.io/badge/Open_Repository_In-Visual_Studio_Code-blueviolet?logo=visualstudiocode" alt="Open Repository In Visual Studio Code"></a>
 </p>
