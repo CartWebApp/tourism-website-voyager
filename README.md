@@ -74,8 +74,8 @@
               
 <p align="middle">
   <a href="https://github.com/veerpartapsingh001" title="Go to Veer's GitHub profile"><img src="https://img.shields.io/static/v1?label=Follow&message=Veer Partap Singh&color=blueviolet&logo=github" alt="Veer's GitHub Account" width="26%"></a>
-  <a href="https://github.com/ㅤㅤjacklevreaㅤㅤ" title="Go to Jack's GitHub profile"><img src="https://img.shields.io/static/v1?label=Follow&message=Jack Levreau&color=blueviolet&logo=github" alt="Jack's GitHub Account" width="26%"></a>
-   <a href="https://github.com/ㅤAidan-McCluskeyㅤ" title="Go to Aidan's GitHub profile"><img src="https://img.shields.io/static/v1?label=Follow&message=Aidan McCluskey&color=blueviolet&logo=github" alt="Aidan's GitHub Account" width="26%"></a>
+  <a href="https://github.com/jacklevrea" title="Go to Jack's GitHub profile"><img src="https://img.shields.io/static/v1?label=Follow&message=Jack Levreau&color=blueviolet&logo=github" alt="Jack's GitHub Account" width="26%"></a>
+   <a href="https://github.com/Aidan-McCluskey" title="Go to Aidan's GitHub profile"><img src="https://img.shields.io/static/v1?label=Follow&message=Aidan McCluskey&color=blueviolet&logo=github" alt="Aidan's GitHub Account" width="26%"></a>
 </p>
 
 <p align="middle">
