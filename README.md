@@ -36,7 +36,7 @@
 <h2>Project Requirments • Technical :</h2>
 
 * **A detailed Figma prototype** should be completed **_prior_** to writing **_any_** code.
-* **Daily commits** o a shared Github repository by each team member during the programming phase.
+* **Daily commits** to a shared Github repository by each team member during the programming phase.
 * Consistently placed and styled navigation to all pages on each page
     * The current page should not be removed from the navigation but marked as “active” and styled separately through css.
 * Valid, semantic HTML/CSS (should pass the [W3C HTML validator](https://validator.w3.org/))
