@@ -55,7 +55,7 @@
 <!-- Website Requirements Found From https://classroom.google.com/u/3/c/MzgwNTU4NDY3MTky/a/NDM0NjE0Nzg0ODk0/details -->
 <h2>Student Requirements :</h2>
 
-**Each student should turn in the following :**
+**Each student should turn in the following.**
 1. • Link to live website hosted on Netlify
 
 2. • Link to the teams GitHub repository for the project.
