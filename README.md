@@ -19,12 +19,12 @@
 <h2>Project Requirements • Content :</h2>
 
 * Content should include:
- * A **‘Home**’** **page** **that is visually appealing and features content sections that use images and text to introduce and link to the other pages of your website.
+ * A ‘**Home**’ **page** that is visually appealing and features content sections that use images and text to introduce and link to the other pages of your website.
  * A ‘**Destinations**’ page featuring an overview of each country your travel agency offers packages to.
  * Each destination should feature at least 3 pages:
-     * An **‘About**’** (e.g. About Fiji) **page featuring the location, demographics, exports, major cities and natural locations, cultural overview, and a brief history of the country. 
-     * A **‘Discover**’** (e.g. Discover Fiji) **page featuring the cultural traditions, associated locales, and other notable tourist destinations and activities.
-     * A **‘Visit**’** (e.g. Visit Fiji) **page detailing the travel options to the country, lodging options (especially anything culturally or historically significant), and in-country transportation options.
+     * An ‘**About**’ (e.g. About Fiji) page featuring the location, demographics, exports, major cities and natural locations, cultural overview, and a brief history of the country. 
+     * A ‘**Discover**’ (e.g. Discover Fiji) page featuring the cultural traditions, associated locales, and other notable tourist destinations and activities.
+     * A ‘**Visit**’ (e.g. Visit Fiji) page detailing the travel options to the country, lodging options (especially anything culturally or historically significant), and in-country transportation options.
  * Each page should have a full-width ‘hero’ image near the top with the page title overlaid (using CSS not Photoshop).
  * Each content item should feature multiple paragraphs of information and supporting images.
  * Consistent color and font usage that enhances the legibility of your information
