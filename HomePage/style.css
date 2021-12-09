@@ -72,6 +72,10 @@ body {
   background-color: #5b3d79;
 }
 
+.infosum p text {
+  border-left: 5px #DADADA;
+}
+
 .footer {
   padding: 25px;
   display: flex;
@@ -88,6 +92,18 @@ body {
   height: 600px;
   border-radius: 50%;
   display: inline-block;
+}
+
+button {
+  border-radius: 12px;
+  background: #EFD33B;
+  color: #44275D;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background: #ad9b30;
+  color: #2d193f;
 }
 
 
