@@ -44,8 +44,8 @@
  * Multi-column layout using CSS Flexbox
  * **One** shared external CSS Stylesheet
  * **CSS Media Queries** that enable your website to function well at any screen size. Minimally your site should adapt to:
-    * **Desktop **> ~992px wide
-    * **Large Tablet **&lt; ~992px wide
+    * **Desktop** > ~992px wide
+    * **Large Tablet** &lt; ~992px wide
     * **Medium Tablet** &lt; ~768px wide
     * **Phone** &lt; ~480px wide
     * These widths are starting points and may vary based on your site layout. Fix your site at each width it “breaks” at.
