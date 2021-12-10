@@ -52,15 +52,32 @@ body {
 .phead {
   display: flex;
   color: white;
-  font-size: 40px;
+  font-size: 120px;
   justify-content: center;
 }
 
 /* 'Featured Destinations' Text Inside Boxes */
+
 .podium {
   display: flex;
   color: #fff;
   justify-content: space-between;
+}
+
+.subhead {
+  display: flex;
+  color: white;
+  font-size: 64px;
+  justify-content: center;
+}
+
+.text{
+  display: flex;
+  color: white;
+  font-size: 26px;
+  text-align: left;
+  border-left: white 2px;
+  padding: 5px 0px 5px 0px;
 }
 
 /* 'Featured Destinations' Inside Boxes */
