@@ -1,12 +1,11 @@
 /* Don't forget that media queries are required for this project */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap");
 
-
 /* Hides the scroll bar but still allows scrolling on website */
 element::-webkit-scrollbar {
   -ms-overflow-style: none; /* Internet Explorer, Edge *.
   scrollbar-width: none; /* Firefox */
-  overflow-y: scroll; 
+  overflow-y: scroll;
   display: none; /* Chrome, Safari, & OperaGX */
 }
 
@@ -17,7 +16,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* Hero Image Buttons / Navigation Bar Buttons */
+/* Navigation Bar Background */
 .backofnav {
   background-color: #44275d;
   padding: 5px 0px 5px 0px;
@@ -28,13 +27,27 @@ body {
   list-style: none;
   justify-content: space-around;
 }
+/* Navigation Bar Buttons, "About Us" & "Destinations" */
+
+.button {
+  border-radius: 12px;
+  background-color: #efd33b;
+  color: #44275D;
+  height: 50px;
+  width: 200px;
+  font-size: 25px;
+}
+
 .navinfo {
   color: white;
-  font-size: large;
+  font-size: 45px;
+  text-align: center;
 }
+
 .logo {
   color: white;
-  font-size: x-large;
+  font-size: 64px;
+  text-align: center;
 }
 
 .mainhero {
@@ -43,44 +56,104 @@ body {
 }
 
 /* 'Featured Destinations' Outside Box */
+
 .fdest {
-  height: auto;
+  height: 1040px;
   background-color: #44275d;
 }
 
-/* 'Featured Destinations' Outside Box Text */
+/* header with white text and yellow bottom border */
 .phead {
   display: flex;
   color: white;
-  font-size: 40px;
+  font-size: 80px;
   justify-content: center;
+  border-bottom: solid #efd33b;
+  margin: 60px;
+  padding-top: 40px;
+}
+.fhead {
+  display: flex;
+  color: white;
+  font-size: 80px;
+  justify-content: center;
+  border-bottom: solid #efd33b;
+  margin: 50px;
+  padding-top: 40px;
+  
 }
 
 /* 'Featured Destinations' Text Inside Boxes */
 .podium {
   display: flex;
   color: #fff;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.text {
+  display: flex;
+  text-align: left;
+  font-size: 40px;
+}
+
+.subheadtext {
+  border-left: solid white 3px;
+  text-align: left;
+  padding: 15px;
+  font-size: 30px;
+}
+
+.subheadtitle {
+  font-size: 64px;
+  margin: -10px
 }
 
 /* 'Featured Destinations' Inside Boxes */
 .infosum {
   width: 31%;
-  height: 800px;
+  height: 780px;
   text-align: center;
   border-radius: 12px;
   background-color: #5b3d79;
+  padding: 40px;
+  box-sizing: border-box;
+  border: 12px;
 }
 
 .footer {
   padding: 25px;
   display: flex;
   background-color: #44275d;
-  justify-content: space-between;
+  justify-content: space-around;
 }
-
+.footerinfotext{
+  display: flex;
+  color: white;
+  font-size: 50px;
+  justify-content: center;
+}
+.footerinfo{
+text-align: center;
+width:18%;
+flex-wrap: wrap;
+}
+.footerinfo {
+  text-align: center;
+  width:18%;
+  flex-wrap: wrap;
+  }
+.c{
+  display: flex;
+  padding: 25px;
+}
 .copyright {
   text-align: center;
+  margin: 25px;
+}
+.footercontacttext{
+  color:white;
+  font-size: 20px;
+  width: 100%;
 }
 
 .leftherocircle {
@@ -89,7 +162,6 @@ body {
   border-radius: 50%;
   display: inline-block;
 }
-
 
 /* border-radius: 50%; "Makes An Object or image A Circle" */
 
