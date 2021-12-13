@@ -66,16 +66,7 @@ body {
 .phead {
   display: flex;
   color: white;
-  font-size: 80px;
-  justify-content: center;
-  border-bottom: solid #efd33b;
-  margin: 60px;
-  padding-top: 40px;
-}
-.fhead {
-  display: flex;
-  color: white;
-  font-size: 80px;
+  font-size: 120px;
   justify-content: center;
   border-bottom: solid #efd33b;
   margin: 50px;
@@ -84,6 +75,7 @@ body {
 }
 
 /* 'Featured Destinations' Text Inside Boxes */
+
 .podium {
   display: flex;
   color: #fff;
@@ -108,6 +100,22 @@ body {
   margin: -10px
 }
 
+.subhead {
+  display: flex;
+  color: white;
+  font-size: 64px;
+  justify-content: center;
+}
+
+.text{
+  display: flex;
+  color: white;
+  font-size: 26px;
+  text-align: left;
+  border-left: white 2px;
+  padding: 5px 0px 5px 0px;
+}
+
 /* 'Featured Destinations' Inside Boxes */
 .infosum {
   width: 31%;
@@ -118,6 +126,10 @@ body {
   padding: 40px;
   box-sizing: border-box;
   border: 12px;
+}
+
+.infosum p text {
+  border-left: 5px #DADADA;
 }
 
 .footer {
@@ -162,6 +174,19 @@ flex-wrap: wrap;
   border-radius: 50%;
   display: inline-block;
 }
+
+button {
+  border-radius: 12px;
+  background: #EFD33B;
+  color: #44275D;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background: #ad9b30;
+  color: #2d193f;
+}
+
 
 /* border-radius: 50%; "Makes An Object or image A Circle" */
 
