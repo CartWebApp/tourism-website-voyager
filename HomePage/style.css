@@ -58,22 +58,34 @@ body {
 /* 'Featured Destinations' Outside Box */
 
 .fdest {
-  height: 1040px;
+  height: auto;
   background-color: #44275d;
+  padding-bottom: 50px;
 }
+.header{
+  display: flex;
+  justify-content: center;
 
+}
 /* header with white text and yellow bottom border */
 .phead {
-  display: flex;
   color: white;
   font-size: 120px;
   justify-content: center;
   border-bottom: solid #efd33b;
   margin: 50px;
-  padding-top: 40px;
-  
+}
+.whead{
+  color: #5B3D79;
+  font-size: 120px;
+  justify-content: center;
+  border-bottom: solid #efd33b;
+  margin: 50px;
 }
 
+.leftheader{
+  display: flex;
+}
 /* 'Featured Destinations' Text Inside Boxes */
 
 .podium {
