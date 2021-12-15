@@ -1,75 +1,119 @@
 /* Don't forget that media queries are required for this project */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap"); /* Poppins Font On Top Baby #1 */
 
-/* Hides the scroll bar but still allows scrolling on website */
-element::-webkit-scrollbar {
-  -ms-overflow-style: none; /* Internet Explorer, Edge *.
+element::-webkit-scrollbar /* Hides the scroll bar but still allows scrolling on website */
+{
+  -ms-overflow-style: none; /* Internet Explorer, Edge */
   scrollbar-width: none; /* Firefox */
-  overflow-y: scroll;
   display: none; /* Chrome, Safari, & OperaGX */
 }
 
-/* Adding a css tag to the body tag effects all attributes inside of the body tag <body></body> */
-body {
+/*
+      ############################
+      ##   Base CSS Settings   ### 
+      ############################
+*/
+
+body /* Controls All CSS Within The Body Tag */
+{
   margin: 0;
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
 }
 
-/* Navigation Bar Background */
-.backofnav {
+button /* Controls All CSS Within The Button Tag */
+{
+  border-radius: 12px;
+  background: #EFD33B;
+  color: #44275D;
+  transition-duration: 0.4s;
+}
+
+button:hover 
+{
+  background: #ad9b30;
+  color: #2d193f;
+}
+
+/*
+      ############################
+      ##      Hero Banner      ### 
+      ############################
+*/
+
+.back_of_navigation_bar /* Back Of Navigation Bar */
+{
   background-color: #44275d;
   padding: 5px 0px 5px 0px;
 }
 
-.nav {
+.navigation_bar /* Navigation Bar Buttons Base Settings */
+{
   display: flex;
   list-style: none;
   justify-content: space-around;
 }
-/* Navigation Bar Buttons, "About Us" & "Destinations" */
 
-.button {
-  border-radius: 12px;
-  background-color: #efd33b;
-  color: #44275D;
-  height: 50px;
-  width: 200px;
-  font-size: 25px;
-}
-
-.navinfo {
-  color: white;
-  font-size: 45px;
-  text-align: center;
-}
-
-.logo {
-  color: white;
+.navigation_bar_logo /* Navigation Bar Logo */
+{
+  color: #fff;
   font-size: 64px;
   text-align: center;
 }
 
-.mainhero {
+.navigation_button_aboutus /* Navigation Bar Button "About Us" */
+{
+  color: #fff;
+  font-size: 45px;
+  text-align: center;
+}
+
+.navigation_button_destinations /* Navigation Bar Button "Destinations" */
+{
+  color: #fff;
+  font-size: 45px;
+  text-align: center;
+}
+
+.main_hero_base /* Hero Banner Base */
+{
   height: auto;
   background-color: #5b3d79;
 }
 
-/* 'Featured Destinations' Outside Box */
+.left_hero_circle /* Left Hero Banner Circle */
+{
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  display: inline-block;
+}
 
-.fdest {
-  height: auto;
+/*
+      ############################
+      ## Featured Destinations ### 
+      ############################
+*/
+
+.featured_destinations_background /* Featured Destinations Background Color ( Dark Purple ) */
+{
+  height: 1040px;
   background-color: #44275d;
   padding-bottom: 50px;
 }
 .header{
   display: flex;
   justify-content: center;
-
 }
-/* header with white text and yellow bottom border */
-.phead {
-  color: white;
+.featured_destinations_header /* Featured Destinations Header */
+{
+  animation: alternate;
+}
+
+.featured_destinations_title /* Featured Destinations Title */
+{
+  display: flex;
+  color: #fff;
   font-size: 120px;
   display: flex;
   justify-content: center;
@@ -83,50 +127,45 @@ body {
   justify-content: center;
   border-bottom: solid #efd33b;
   margin: 50px;
+  padding-top: 40px;
 }
 
-.leftheader{
-  display: flex;
-}
-/* 'Featured Destinations' Text Inside Boxes */
-
-.podium {
+.featured_destinations_podiums /* Featured Destinations Podiums */
+{
   display: flex;
   color: #fff;
   justify-content: space-around;
 }
 
-
-.subheadtext {
-  border-left: solid white 3px;
-  text-align: left;
-  padding: 15px;
-  font-size: 30px;
+.featured_destinations_podiums_information /* 'Featured Destinations Podiums Information */
+{
+  width: 31%;
+  height: 780px;
+  text-align: center;
+  border-radius: 12px;
+  background-color: #5b3d79;
+  padding: 40px;
+  box-sizing: border-box;
+  border: 12px;
 }
 
-.subheadtitle {
+.featured_destinations_podiums_information p text /* 'Featured Destinations Podiums Information Paragraph Text */
+{
+  border-left: 5px #DADADA;
+}
+
+.featured_destinations_title /* The Title Text Located Within The Featured Destinations Columns */
+{
   font-size: 64px;
   margin: -10px
 }
 
-.subhead {
-  display: flex;
-  color: white;
-  font-size: 64px;
-  justify-content: center;
-}
-
-.text{
-  display: flex;
-  color: white;
-  font-size: 26px;
+.featured_destinations_text /* The Body Text Located Within The Featured Destinations Columns */
+{
+  border-left: solid #fff 3px;
   text-align: left;
-  border-left: white 2px;
-  padding: 5px 0px 5px 0px;
-  border-left: solid white 3px;
   padding: 15px;
   font-size: 30px;
-  text-align: left;
 }
 .aboutus{
   margin-bottom: 25px;
@@ -152,88 +191,107 @@ background-color: #FFFFFF;
 width: 98%;
 align-self: center;
 align-items: center;
-
 }
-.topuserinfo{
- display: flex;
-}
-/* 'Featured Destinations' Inside Boxes */
-.infosum {
-  width: 31%;
-  height: 780px;
-  text-align: center;
+.featured_destinations_button /* Featured Destinations Columns Buttons */
+{
   border-radius: 12px;
-  background-color: #5b3d79;
-  padding: 40px;
-  box-sizing: border-box;
-  border: 12px;
+  background-color: #efd33b;
+  color: #44275D;
+  height: 50px;
+  width: 200px;
+  font-size: 25px;
 }
-.infosum p text {
-  border-left: 5px #DADADA;
-}
-.aboutuscircle{
+
+.information_footer_image_placeholder_and_text /* Controls The Class That Holds The Footer Image Placeholders And Text */
+{
   display: flex;
-  justify-content: right;
-  margin-left: 0px 0px 0px 30px;
-  width: 150px;
-  height: 38px;
+  padding: 25px;
 }
-.footer {
+
+/*
+      ############################
+      ##   Information Footer  ### 
+      ############################
+*/
+
+.information_footer /* Primary CSS For The Information Footer */
+{
   padding: 25px;
   display: flex;
   background-color: #44275d;
   justify-content: space-around;
 }
-.footerinfotext{
-  display: flex;
-  color: white;
-  font-size: 50px;
-  justify-content: center;
-}
-.footerinfo{
-text-align: center;
-width:18%;
-flex-wrap: wrap;
-}
-.footerinfo {
+
+.information_footer_information /* Controls the Information Section Located In The Primary Footer */
+{
   text-align: center;
   width:18%;
   flex-wrap: wrap;
-  }
-.c{
-  display: flex;
-  padding: 25px;
 }
-.copyright {
+
+.information_footer_head /* Controls the Title Above The Content Located In The Footer */
+{
+  width: 18%;
+}
+
+.information_footer_content /* Controls the Content Section Beneath The Footer Head In The Primary Footer */
+{
   text-align: center;
-  margin: 25px;
+  width:18%;
+  flex-wrap: wrap;
 }
-.footercontacttext{
-  color:white;
+
+.information_footer_contact_text /* Controls The Text For The Company Contact Information */
+{
+  color: #fff;
   font-size: 20px;
   width: 100%;
 }
 
-.leftherocircle {
-  width: 600px;
-  height: 600px;
-  border-radius: 50%;
-  display: inline-block;
+/*
+      ############################
+      ##    Copyright Footer   ### 
+      ############################
+*/
+
+.copyright_footer_text
+{
+  text-align: center;
+  margin: 25px;
 }
 
-button {
-  border-radius: 12px;
-  background: #EFD33B;
-  color: #44275D;
-  transition-duration: 0.4s;
-}
+/*
+      ############################
+      ##    Unknown Purpose    ### 
+      ############################
+*/
 
-button:hover {
-  background: #ad9b30;
-  color: #2d193f;
-}
+ /* .text ( Line 83 )
+{
+  display: flex;
+  text-align: left;
+  font-size: 40px;
+} */
 
+/* .subhead 
+{
+  display: flex;
+  color: #fff;
+  font-size: 64px;
+  justify-content: center;
+} */
 
-/* border-radius: 50%; "Makes An Object or image A Circle" */
+/* .footerinfotext
+{
+  display: flex;
+  color: #fff;
+  font-size: 50px;
+  justify-content: center;
+} */
 
-/* This is a test commit by , Aidan */
+/*
+      ############################################################################################
+      ##    Code copyrighted to Voyager, please do not use without permission, thank you! ♡     ##
+      ##           ( Not like you would want to use this spaghetti code anyways. )              ## 
+      ############################################################################################
+*/
