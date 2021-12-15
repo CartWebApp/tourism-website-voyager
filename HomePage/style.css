@@ -103,8 +103,12 @@ button:hover
 {
   height: auto;
   background-color: #44275d;
+  padding-bottom: 50px;
 }
-
+.header{
+  display: flex;
+  justify-content: center;
+}
 .featured_destinations_header /* Featured Destinations Header */
 {
   font-size: 64px;
@@ -165,7 +169,31 @@ button:hover
   padding: 15px;
   font-size: 30px;
 }
-
+.aboutus{
+  margin-bottom: 25px;
+}
+.aboutustextbox{
+  z-index: 10;
+  width: 50%;
+  height: auto;
+  border-radius: 12px;
+  background-color: #5b3d79;
+  padding: 40px;
+  box-sizing: border-box;
+  border: 24px solid #44275D;
+  margin-left: 14%;
+ }
+ .ux{
+  height: auto;
+  background-color: #5B3D79;
+  padding-bottom: 50px;
+}
+.userinfo{
+background-color: #FFFFFF;
+width: 98%;
+align-self: center;
+align-items: center;
+}
 .featured_destinations_button /* Featured Destinations Columns Buttons */
 {
   border-radius: 12px;
