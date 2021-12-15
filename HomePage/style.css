@@ -71,6 +71,7 @@ body {
 .phead {
   color: white;
   font-size: 120px;
+  display: flex;
   justify-content: center;
   border-bottom: solid #efd33b;
   margin: 50px;
@@ -78,6 +79,7 @@ body {
 .whead{
   color: #5B3D79;
   font-size: 120px;
+  display: flex;
   justify-content: center;
   border-bottom: solid #efd33b;
   margin: 50px;
@@ -94,11 +96,6 @@ body {
   justify-content: space-around;
 }
 
-.text {
-  display: flex;
-  text-align: left;
-  font-size: 40px;
-}
 
 .subheadtext {
   border-left: solid white 3px;
@@ -126,8 +123,40 @@ body {
   text-align: left;
   border-left: white 2px;
   padding: 5px 0px 5px 0px;
+  border-left: solid white 3px;
+  padding: 15px;
+  font-size: 30px;
+  text-align: left;
 }
+.aboutus{
+  margin-bottom: 25px;
+}
+.aboutustextbox{
+  z-index: 10;
+  width: 50%;
+  height: auto;
+  border-radius: 12px;
+  background-color: #5b3d79;
+  padding: 40px;
+  box-sizing: border-box;
+  border: 24px solid #44275D;
+  margin-left: 14%;
+ }
+ .ux{
+  height: auto;
+  background-color: #5B3D79;
+  padding-bottom: 50px;
+}
+.userinfo{
+background-color: #FFFFFF;
+width: 98%;
+align-self: center;
+align-items: center;
 
+}
+.topuserinfo{
+ display: flex;
+}
 /* 'Featured Destinations' Inside Boxes */
 .infosum {
   width: 31%;
@@ -139,11 +168,16 @@ body {
   box-sizing: border-box;
   border: 12px;
 }
-
 .infosum p text {
   border-left: 5px #DADADA;
 }
-
+.aboutuscircle{
+  display: flex;
+  justify-content: right;
+  margin-left: 0px 0px 0px 30px;
+  width: 150px;
+  height: 38px;
+}
 .footer {
   padding: 25px;
   display: flex;
