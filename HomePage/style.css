@@ -1,11 +1,15 @@
 /* Don't forget that media queries are required for this project */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap"); /* Poppins Font On Top Baby #1 */
 
-element::-webkit-scrollbar /* Hides the scroll bar but still allows scrolling on website */
+* 
 {
-  -ms-overflow-style: none; /* Internet Explorer, Edge */
-  scrollbar-width: none; /* Firefox */
+  font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar /* Hides the scroll bar but still allows scrolling on website */ {
   display: none; /* Chrome, Safari, & OperaGX */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer, Edge */
 }
 
 /*
@@ -14,25 +18,46 @@ element::-webkit-scrollbar /* Hides the scroll bar but still allows scrolling on
       ############################
 */
 
-body /* Controls All CSS Within The Body Tag */
+p 
+{
+  margin: 0;
+}
+
+h2 
+{
+  padding: 0px;
+}
+
+a:link, a:visited
+{
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: #efd33b;
+  transition-duration: 0.5s;
+}
+
+body /* Controls All CSS Within The Body Tag */ 
 {
   margin: 0;
   overflow-x: hidden;
-  font-family: "Poppins", sans-serif;
 }
 
-button /* Controls All CSS Within The Button Tag */
+button /* Controls All CSS Within The Button Tag */ 
 {
+  color: #44275d;
   border-radius: 12px;
-  background: #EFD33B;
-  color: #44275D;
-  transition-duration: 0.4s;
+  background: #efd33b;
+  transition-duration: 0.5s;
 }
 
 button:hover 
 {
-  background: #ad9b30;
   color: #2d193f;
+  background: #ad9b30;
 }
 
 /*
@@ -41,47 +66,50 @@ button:hover
       ############################
 */
 
-.back_of_navigation_bar /* Back Of Navigation Bar */
+.back_of_navigation_bar /* Back Of Navigation Bar */ 
 {
-  background-color: #44275d;
   padding: 5px 0px 5px 0px;
+  background-color: #44275d;
 }
 
-.navigation_bar /* Navigation Bar Buttons Base Settings */
+.navigation_bar /* Navigation Bar Buttons Base Settings */ 
 {
   display: flex;
   list-style: none;
   justify-content: space-around;
 }
 
-.navigation_bar_logo /* Navigation Bar Logo */
+.navigation_bar_logo /* Navigation Bar Logo */ 
 {
   color: #fff;
   font-size: 64px;
   text-align: center;
+  padding: 0px 0px 15px 0px;
 }
 
-.navigation_button_aboutus /* Navigation Bar Button "About Us" */
+.navigation_button_aboutus /* Navigation Bar Button "About Us" */ 
 {
   color: #fff;
   font-size: 45px;
   text-align: center;
+  padding: 15px 0px 0px 0px;
 }
 
-.navigation_button_destinations /* Navigation Bar Button "Destinations" */
+.navigation_button_destinations /* Navigation Bar Button "Destinations" */ 
 {
   color: #fff;
   font-size: 45px;
   text-align: center;
+  padding: 15px 0px 0px 0px;
 }
 
-.main_hero_base /* Hero Banner Base */
+.main_hero_base /* Hero Banner Base */ 
 {
   height: auto;
   background-color: #5b3d79;
 }
 
-.left_hero_circle /* Left Hero Banner Circle */
+.left_hero_circle /* Left Hero Banner Circle */ 
 {
   width: 600px;
   height: 600px;
@@ -90,85 +118,253 @@ button:hover
 }
 
 /*
-      ############################
-      ## Featured Destinations ### 
-      ############################
+      #############################
+      ### Featured Destinations ### 
+      #############################
 */
 
-.featured_destinations_background /* Featured Destinations Background Color ( Dark Purple ) */
-{
-  height: 1040px;
-  background-color: #44275d;
-}
-
-.featured_destinations_header /* Featured Destinations Header */
-{
-  animation: alternate;
-}
-
-.featured_destinations_title /* Featured Destinations Title */
-{
+.featured_destinations_div {
   display: flex;
-  color: #fff;
-  font-size: 120px;
-  justify-content: center;
-  border-bottom: solid #efd33b;
-  margin: 50px;
-  padding-top: 40px;
-}
-
-.featured_destinations_podiums /* Featured Destinations Podiums */
-{
-  display: flex;
-  color: #fff;
+  padding: 50px 0px 35px 0px;
   justify-content: space-around;
 }
 
-.featured_destinations_podiums_information /* 'Featured Destinations Podiums Information */
-{
-  width: 31%;
-  height: 780px;
-  text-align: center;
-  border-radius: 12px;
-  background-color: #5b3d79;
-  padding: 40px;
-  box-sizing: border-box;
-  border: 12px;
-}
-
-.featured_destinations_podiums_information p text /* 'Featured Destinations Podiums Information Paragraph Text */
-{
-  border-left: 5px #DADADA;
-}
-
-.featured_destinations_title /* The Title Text Located Within The Featured Destinations Columns */
-{
-  font-size: 64px;
-  margin: -10px
-}
-
-.featured_destinations_text /* The Body Text Located Within The Featured Destinations Columns */
-{
-  border-left: solid #fff 3px;
-  text-align: left;
+.featured_destinations_text /* The Body Text Located Within The Featured Destinations Columns */ {
   padding: 15px;
   font-size: 30px;
+  text-align: left;
+  border-left: solid #fff auto 3px;
 }
 
-.featured_destinations_button /* Featured Destinations Columns Buttons */
+.featured_destinations_background /* Featured Destinations Background Color ( Dark Purple ) */ 
 {
+  height: auto;
+  padding-bottom: 50px;
+  background-color: #44275d;
+}
+
+.featured_destinations_header /* Featured Destinations Header */ 
+{
+  margin: 0%;
+  font-size: 64px;
+}
+
+.featured_destinations_title /* featured Destinations Title */ 
+{
+  margin: 50px;
+  color: #fff;
+  font-size: 120px;
+  vertical-align: top;
+  display: inline-block;
+  padding: 65px 20px 0px;
+  justify-content: center;
+  border-bottom: solid #efd33b 3px;
+}
+
+.featured_destinations_podiums /* Featured Destinations Podiums */ 
+{
+  display: flex;
+  color: #fff;
+  padding: 70px 10px 20px 10px;
+  justify-content: space-around;
+}
+
+.featured_destinations_podiums_information /* 'Featured Destinations Podiums Information */ 
+{
+  width: 31%;
+  height: auto;
+  border: 12px;
+  padding: 40px;
+  text-align: center;
   border-radius: 12px;
-  background-color: #efd33b;
-  color: #44275D;
+  box-sizing: border-box;
+  background-color: #5b3d79;
+}
+
+.featured_destinations_podiums_information p text /* 'Featured Destinations Podiums Information Paragraph Text */ 
+{
+  border-left: 3px #dadada;
+}
+
+.featured_destinations_title /* The Title Text Located Within The Featured Destinations Columns */ 
+{
+  margin: -60px;
+  font-size: 64px;
+}
+
+.featured_destinations_text /* The Body Text Located Within The Featured Destinations Columns */ 
+{
+  padding: 15px;
+  font-size: 30px;
+  text-align: left;
+  border-left: solid #fff 3px;
+}
+
+.about_us_section
+{
+  margin-bottom: 25px;
+}
+
+.aboutustextbox 
+{
+  width: 50%;
+  z-index: 10;
+  height: auto;
+  padding: 40px;
+  margin-left: 14%;
+  border-radius: 12px;
+  box-sizing: border-box;
+  background-color: #5b3d79;
+  border: 24px solid #44275d;
+}
+
+.ux 
+{
+  height: auto;
+  padding-bottom: 50px;
+  background-color: #5b3d79;
+}
+
+.featured_destinations_button /* Featured Destinations Columns Buttons */ 
+{
   height: 50px;
   width: 200px;
   font-size: 25px;
+  color: #44275d;
+  border-radius: 12px;
+  background-color: #efd33b;
 }
 
-.information_footer_image_placeholder_and_text /* Controls The Class That Holds The Footer Image Placeholders And Text */
+.information_footer_image_placeholder_and_text /* Controls The Class That Holds The Footer Image Placeholders And Text */ 
+{
+  padding: 0px;
+  display: flex;
+}
+
+/*
+      ############################
+      ##        About Us       ### 
+      ############################
+*/
+
+.about_us_text_box_group
+{
+  width: 60%;
+  display: flex;
+  padding: 15px;
+  margin-left: 10%;
+  border-width: 10px;
+  border-radius: 12px;
+  background-color: #5b3d79;
+  border: solid #44275d 15px;
+}
+.about_us_text_box {
+  padding: 40px;
+  color: white;
+  font-size: 28px;
+  text-align: left;
+}
+
+.about_us_text_box_text {
+  padding: 15px;
+  border-left: solid #fff 3px;
+}
+
+.about_us_circle_div {
+  width: 150px;
+  height: 38px;
+  display: flex;
+  justify-content: right;
+  margin-left: 0px 0px 0px 30px;
+}
+
+.about_us {
+  margin: 0;
+  padding: 50px 0px 0px 0px;
+  border-bottom: solid #efd33b 3px;
+}
+
+.about_us_header /* Controls The Header In The About Us */ 
 {
   display: flex;
+  margin: -10px;
+  font-size: 64px;
+  padding: 0px 0px 25px 0px;
+  justify-content: space-around;
+}
+
+.about_us_title /* Controls The Title In The About Us */ 
+{
+  display: flex;
+  justify-content: center;
+}
+
+/*
+      #################################
+      ##   What Users Have To Say   ### 
+      #################################
+*/
+
+.user_review_name {
+  display: flex;
+  padding-bottom: 15px;
+}
+.user_review_info {
+  margin-left: 25px;
+}
+
+.user_feedback_div
+{
+  display: flex;
+  padding: 30px 0px 35px 0px;
+  justify-content: space-around;
+}
+
+.user_feedback_header {
+  font-size: 45px;
+  border-bottom: solid #efd33b 3px;
+}
+
+.user_feedback_div
+{
+  display: flex;
+  padding: 30px 0px 35px 0px;
+  justify-content: space-around;
+}
+
+.user_feedback_header {
+  font-size: 45px;
+  border-bottom: solid #efd33b 3px;
+}
+
+.user_feedback_title
+{
+  color: #fff;
+  font-size: 75px;
+}
+
+.user_feedback 
+{
+  padding-bottom: 50px;
+  background-color: #5b3d79;
+}
+
+.user_reviews
+{
+  width: auto;
+  margin: 25px;
+  align-self: center;
+  align-items: center;
+  border-radius: 12px;
+  background-color: #fff;
+  padding: 15px 15px 15px 15px;
+}
+
+.user_review_text
+{
   padding: 25px;
+  border-radius: 10px;
+  background-color: #dadada;
 }
 
 /*
@@ -177,7 +373,12 @@ button:hover
       ############################
 */
 
-.information_footer /* Primary CSS For The Information Footer */
+.information_footer_div /* Primary Div For The Information Footer */
+{
+  padding-bottom: 30px;
+}
+
+.information_footer /* Primary CSS For The Information Footer */ 
 {
   padding: 25px;
   display: flex;
@@ -185,30 +386,38 @@ button:hover
   justify-content: space-around;
 }
 
-.information_footer_information /* Controls the Information Section Located In The Primary Footer */
-{
-  text-align: center;
-  width:18%;
-  flex-wrap: wrap;
-}
-
-.information_footer_head /* Controls the Title Above The Content Located In The Footer */
+.information_footer_info /* Controls the Information Section Located In The Primary Footer */ 
 {
   width: 18%;
-}
-
-.information_footer_content /* Controls the Content Section Beneath The Footer Head In The Primary Footer */
-{
-  text-align: center;
-  width:18%;
+  color: white;
   flex-wrap: wrap;
+  font-size: 32px;
+  text-align: left;
 }
 
-.information_footer_contact_text /* Controls The Text For The Company Contact Information */
+.information_footer_head /* Controls the Title Above The Content Located In The Footer */ 
 {
+  width: 18%;
+  font-size: 42px;
+  text-align: center;
+  border-bottom: solid 3px #efd33b;;
+  padding: 0px 0px 5px 0px;
+}
+
+.information_footer_content /* Controls the Content Section Beneath The Footer Head In The Primary Footer */ 
+{
+  width: auto;
+  flex-wrap: wrap;
+  text-align: left;
+  padding: 0px 0px 12px 0px;
+}
+
+.information_footer_contact_text /* Controls The Text For The Company Contact Information */ 
+{
+  width: 100%;
   color: #fff;
   font-size: 20px;
-  width: 100%;
+  padding: 10px 0px 0px 15px;
 }
 
 /*
@@ -217,10 +426,11 @@ button:hover
       ############################
 */
 
-.copyright_footer_text
+.copyright_footer_text 
 {
-  text-align: center;
   margin: 25px;
+  font-size: 30px;
+  text-align: center;
 }
 
 /*
@@ -229,7 +439,7 @@ button:hover
       ############################
 */
 
- /* .text ( Line 83 )
+/* .text ( Line 83 )
 {
   display: flex;
   text-align: left;

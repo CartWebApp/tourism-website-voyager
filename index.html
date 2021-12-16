@@ -12,9 +12,11 @@
     <!-- Navigation Bar -->
     <div class="back_of_navigation_bar">
       <ul class="navigation_bar">
-        <li class="navigation_button_aboutus">About Us</li>
-        <li class="navigation_bar_logo">Voyager</li>
-        <li class="navigation_button_destinations">Destinations</li>
+        <li class="navigation_button_aboutus"><a href="#">About Us</a></li>
+        <li class="navigation_bar_logo"><a href="index.html">Voyager</a></li>
+        <li class="navigation_button_destinations">
+          <a href="#">Destinations</a>
+        </li>
       </ul>
     </div>
 
@@ -35,115 +37,198 @@
 
     <!-- Featured Destinations -->
     <section class="featured_destinations_background">
-      <div class="featured_destinations_header">
-        <p class="featured_destinations_title">Featured Destinations</p>
+      <div class="featured_destinations_div">
+        <div class="featured_destinations_header">
+          <p class="featured_destinations_title">Featured Destinations</p>
+        </div>
       </div>
       <div class="featured_destinations_podiums">
         <div class="featured_destinations_podiums_information">
           <!--India Featured Destinations Box-->
-          <p class="featured_destinations_title">India</p>
+          <p class="featured_destinations_header">India</p>
           <p class="featured_destinations_text">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
             modi eos ea fuga, cum reiciendis hic asperiores, nisi est aperiam
             beatae maxime incidunt harum doloremque perspiciatis inventore
             ducimus! Expedita quae hic pariatur
           </p>
-          <button class="featured_destinations_button">Learn More</button>
+          <form action="Destinations/India/About/index.html">
+            <button type="button" class="featured_destinations_button">
+              Learn More
+            </button>
+          </form>
         </div>
         <div class="featured_destinations_podiums_information">
-          <!--Canada Featured Destinations Box-->
-          <p class="featured_destinations_title">Canada</p>
+          <!-- Canada Featured Destinations Box -->
+          <p class="featured_destinations_header">Canada</p>
           <p class="featured_destinations_text">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
             modi eos ea fuga, cum reiciendis hic asperiores, nisi est aperiam
             beatae maxime incidunt harum doloremque perspiciatis inventore
             ducimus! Expedita quae hic pariatur
           </p>
-          <button class="featured_destinations_button">Learn More</button>
+          <form action="Destinations/Canada/About/index.html">
+            <button type="button" class="featured_destinations_button">
+              Learn More
+            </button>
+          </form>
         </div>
         <div class="featured_destinations_podiums_information">
           <!--Germany Featured Destinations Box-->
-          <p class="featured_destinations_title">Germany</p>
+          <p class="featured_destinations_header">Germany</p>
           <p class="featured_destinations_text">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
             modi eos ea fuga, cum reiciendis hic asperiores, nisi est aperiam
             beatae maxime incidunt harum doloremque perspiciatis inventore
             ducimus! Expedita quae hic pariatur
           </p>
-          <button class="featured_destinations_button">Learn More</button>
+          <form action="Destinations/Germany/About/index.html">
+            <button type="button" class="featured_destinations_button">
+              Learn More
+            </button>
+          </form>
         </div>
       </div>
     </section>
 
     <!-- About Us Section -->
-    <section class="aboutus">
-      <p class="phead">Lorem, ipsum.</p>
-      <img src="https://via.placeholder.com/140x100" alt="" />
-      <div>
-        <p class="text"></p>
-        <!-- Why is there any empty class here that leads to nothing? -->
+    <section class="about_us_section">
+      <div class="about_us_header">
+        <div class="about_us_title">
+          <p class="about_us">About us</p>
+        </div>
+      </div>
+      <div class="about_us_circle_div">
+        <img
+          id="about_us_circle_image"
+          src="https://via.placeholder.com/140x100"
+          alt=""
+        />
+      </div>
+      <div class="about_us_text_box_group">
+        <div class="about_us_text_box">
+          <p class="about_us_text_box_text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit et modi cupiditate consectetur repellendus ipsum,
+            doloremque rem eaque deserunt, nulla ut natus optio praesentium,
+            tempore ipsam consequatur quaerat consequuntur quae. In eos modi
+            iusto quaerat repellat ducimus, eius molestiae vitae nostrum
+            accusamus! Error, sequi! Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Massa eget egestas purus viverra accumsan.
+            Tempor nec feugiat nisl pretium fusce id velit ut tortor. Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Massa eget
+            egestas purus viverra accumsan. Tempor nec feugiat nisl pretium
+            fusce id velit ut tortor.
+          </p>
+        </div>
       </div>
     </section>
 
-     <!-- <section class="ux">
-      <p class="phead">Lorem, ipsum.</p>
-      <div class="uinfo">
-        <div class="topuinfo">
+    <section class="user_feedback">
+      <div class="user_feedback_div">
+        <div class="user_feedback_header">
+          <p class="user_feedback_title">What Users Have To Say</p>
+        </div>
+      </div>
+      <div class="user_reviews">
+        <div class="user_review_name">
           <img src="https://via.placeholder.com/140x100" alt="" />
-          <div>
-            <h3></h3>
-            <h4></h4>
+          <div class="user_review_info">
+            <h3>Veer - Assam, India</h3>
+            <h4>At 1:48AM On 11/1/2021</h4>
           </div>
         </div>
-        <div class="bottomuinfo">
-          <p></p>
+        <div class="user_review_text">
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa
+              eget egestas purus viverra accumsan. Tempor nec feugiat nisl
+              pretium fusce id velit ut tortor. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et.
+            </p>
+          </div>
         </div>
       </div>
 
-      <div class="uinfo">
-        <div class="topuinfo">
+      <div class="user_reviews">
+        <div class="user_review_name">
           <img src="https://via.placeholder.com/140x100" alt="" />
-          <div>
-            <h3></h3>
-            <h4></h4>
+          <div class="user_review_info">
+            <h3>Veer - Assam, India</h3>
+            <h4>At 1:48AM On 11/1/2021</h4>
           </div>
         </div>
-        <div class="bottomuinfo">
-          <p></p>
+        <div class="user_review_text">
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa
+              eget egestas purus viverra accumsan. Tempor nec feugiat nisl
+              pretium fusce id velit ut tortor. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et.
+            </p>
+          </div>
         </div>
       </div>
-    </section> -->                         <!-- Currently In The Way So I Made It An Author Note
-                                                      Get Rid Of The Tag To Undo                -->
+    </section>
 
     <!-- Information Footer -->
     <footer>
       <div class="information_footer">
         <!-- Company Branding Section Of Footer -->
         <div class="information_footer_info">
-          <p class="information_footer_head">Voyager</p>
+          <div class="information_footer_div">
+            <p class="information_footer_head">Voyager</p>
+          </div>
           <p class="information_footer_content">Country Research Made Easy.</p>
-          <img src="https://via.placeholder.com/140x50" alt="" />
+          <img src="https://via.placeholder.com/140x50" alt="Voyager Moto" />
         </div>
+
         <!-- Links Section Of Footer -->
         <div class="information_footer_info">
-          <p class="information_footer_head">Links</p>
-          <p class="information_footer_content">Germany</p>
-          <p class="information_footer_content">Canada</p>
-          <p class="information_footer_content">India</p>
+          <div class="information_footer_div">
+            <p class="information_footer_head">Links</p>
+          </div>
+          <p class="information_footer_content">
+            <a href="/Destinations/Germany/About/index.html">Germany</a>
+          </p>
+          <p class="information_footer_content">
+            <a href="/Destinations/Canada/About/index.html">Canada</a>
+          </p>
+          <p class="information_footer_content">
+            <a href="/Destinations/India/About/index.html">India</a>
+          </p>
         </div>
+
         <!-- Staff Section Of Footer -->
         <div class="information_footer_info">
-          <p class="information_footer_head">Staff</p>
-          <p class="information_footer_content">Jack L.</p>
-          <p class="information_footer_content">Veer P.</p>
-          <p class="information_footer_content">Aidan M.</p>
+          <div class="information_footer_div">
+            <p class="information_footer_head">Staff</p>
+          </div>
+          <p class="information_footer_content">
+            <a href="/Destinations/Germany/About/index.html">Aidan M.</a>
+          </p>
+          <p class="information_footer_content">
+            <a href="/Destinations/Canada/About/index.html">Jack L.</a>
+          </p>
+          <p class="information_footer_content">
+            <a href="/Destinations/India/About/index.html">Veer P.</a>
+          </p>
         </div>
+
         <!-- Contact Section Of Footer -->
         <div class="information_footer_info">
-          <p class="information_footer_head">Contact</p>
+          <div class="information_footer_div">
+            <p class="information_footer_head">Contact</p>
+          </div>
           <div class="information_footer_image_placeholder_and_text">
-            <img src="https://via.placeholder.com/50x50" alt="Company Number" />
-            <p class="information_footer_contact_text">(559)470-7049</p>
+            <img src="https://via.placeholder.com/50x50" alt="C.A.R.T Number" />
+            <p class="information_footer_contact_text">+1 (559)-248-7400</p>
           </div>
           <div class="information_footer_image_placeholder_and_text">
             <img
@@ -163,6 +248,7 @@
           </div>
         </div>
       </div>
+
       <!-- Copyright Footer -->
       <div class="copyright_footer">
         <p class="copyright_footer_text">© 2021 Copyright Voyager</p>
