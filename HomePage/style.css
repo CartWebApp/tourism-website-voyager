@@ -21,6 +21,7 @@
 p 
 {
   margin: 0;
+  text-decoration: none;
 }
 
 h2 
@@ -119,7 +120,7 @@ button:hover
 
 /*
       #############################
-      ### Featured Destinations ### 
+      ##  Featured Destinations  ## 
       #############################
 */
 
@@ -202,7 +203,7 @@ button:hover
 
 .about_us_section
 {
-  margin-bottom: 25px;
+  margin-bottom: 60px;
 }
 
 .aboutustextbox 
@@ -235,12 +236,6 @@ button:hover
   background-color: #efd33b;
 }
 
-.information_footer_image_placeholder_and_text /* Controls The Class That Holds The Footer Image Placeholders And Text */ 
-{
-  padding: 0px;
-  display: flex;
-}
-
 /*
       ############################
       ##        About Us       ### 
@@ -249,7 +244,7 @@ button:hover
 
 .about_us_text_box_group
 {
-  width: 60%;
+  width: 75%;
   display: flex;
   padding: 15px;
   margin-left: 10%;
@@ -289,7 +284,7 @@ button:hover
   display: flex;
   margin: -10px;
   font-size: 64px;
-  padding: 0px 0px 25px 0px;
+  padding: 0px 0px 60px 0px;
   justify-content: space-around;
 }
 
@@ -418,6 +413,12 @@ button:hover
   color: #fff;
   font-size: 20px;
   padding: 10px 0px 0px 15px;
+}
+
+.information_footer_image_placeholder_and_text /* Controls The Class That Holds The Footer Image Placeholders And Text */ 
+{
+  padding: 0px;
+  display: flex;
 }
 
 /*
