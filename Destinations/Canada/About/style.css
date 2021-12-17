@@ -131,6 +131,24 @@ button:hover {
   width: fit-content;
 }
 
+.hero_section {
+  background-image: url("https://images.unsplash.com/photo-1578973615934-8d9cdb0792b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80https://images.unsplash.com/photo-1578973615934-8d9cdb0792b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80");
+  background-color: #cccccc;
+  height: 500px;
+}
+.hero_nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+featured_destinations_button /* Featured Destinations Columns Buttons */ {
+  height: 50px;
+  width: 200px;
+  font-size: 25px;
+  color: #44275d;
+  border-radius: 12px;
+  background-color: #efd33b;
+}
 .history_info {
   background-color: white;
   border-radius: 12px;
