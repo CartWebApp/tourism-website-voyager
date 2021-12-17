@@ -1,0 +1,371 @@
+/* media queries are required for this project */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap"); /* Poppins Font On Top Baby #1 */
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar /* Hides the scroll bar but still allows scrolling on website */ {
+  display: none; /* Chrome, Safari, & OperaGX */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer, Edge */
+}
+
+/*
+      ############################
+      ##   Base CSS Settings   ### 
+      ############################
+*/
+
+p {
+  margin: 0;
+  text-decoration: none;
+}
+
+h2 {
+  padding: 0px;
+}
+
+a:link,
+a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #efd33b;
+  transition-duration: 0.5s;
+}
+
+body /* Controls All CSS Within The Body Tag */ {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+button /* Controls All CSS Within The Button Tag */ {
+  color: #44275d;
+  border-radius: 12px;
+  background: #efd33b;
+  transition-duration: 0.5s;
+}
+
+button:hover {
+  color: #2d193f;
+  background: #ad9b30;
+}
+
+.center_header h3 {
+  border-bottom: solid #efd33b;
+  font-size: 25px;
+  color: #5b3d79;
+}
+.center_header {
+  color: #fff;
+  display: flex;
+  font-size: 64px;
+  justify-content: center;
+  padding: 0px 0px 23px 0px;
+}
+.about_text_template {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.textbox {
+  padding-left: 15px;
+  text-align: left;
+  border-left: solid #44275d;
+  margin: 12px;
+}
+.textbox .text {
+  color: #44275d;
+}
+.culture_textbox_border {
+  border-radius: 12px;
+
+  width: 50%;
+  background-color: #dadada;
+  border: solid #ffff;
+  border-radius: 12px;
+  border-width: 12px;
+}
+.culture_section {
+  background-color: #5b3d79;
+  border: solid #44275d;
+  border-radius: 12px;
+  border-width: 12px;
+  display: flex;
+  margin: 12px;
+  padding: 12px;
+}
+
+/*
+      ##############################
+      Associated Locals Description  
+      ##############################
+*/
+.about_us {
+  margin: 0;
+  text-decoration: none;
+}
+
+.left_header {
+  display: flex;
+  margin-left: 5%;
+  color: #5b3d79;
+  border-bottom: #efd33b;
+}
+
+.about_us_text_box_group {
+  display: flex;
+  padding: 15px;
+  margin-left: 20%;
+  border-width: 12px;
+  border-radius: 12px;
+  background-color: #5b3d79;
+  border: solid #44275d 15px;
+}
+.about_us_text_box_text {
+  padding: 15px;
+  border-left: solid #fff 3px;
+}
+.about_us_text_box {
+  padding: 12px;
+  color: white;
+  font-size: 12px;
+  text-align: left;
+}
+/*
+      ############################
+      ##      Hero Banner      ### 
+      ############################
+*/
+
+.back_of_navigation_bar /* Back Of Navigation Bar */ {
+  padding: 5px 0px 5px 0px;
+  background-color: #44275d;
+}
+
+.navigation_bar /* Navigation Bar Buttons Base Settings */ {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.navigation_bar_logo /* Navigation Bar Logo */ {
+  color: #fff;
+  font-size: 64px;
+  text-align: center;
+  padding: 0px 0px 15px 0px;
+}
+
+.navigation_button_aboutus /* Navigation Bar Button "About Us" */ {
+  color: #fff;
+  font-size: 45px;
+  text-align: center;
+  padding: 15px 0px 0px 0px;
+}
+
+.navigation_button_destinations /* Navigation Bar Button "Destinations" */ {
+  color: #fff;
+  font-size: 45px;
+  text-align: center;
+  padding: 15px 0px 0px 0px;
+}
+
+.main_hero_base /* Hero Banner Base */ {
+  height: auto;
+  background-color: #5b3d79;
+}
+
+.left_hero_circle /* Left Hero Banner Circle */ {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/*
+      ############################
+      ##   Information Footer  ### 
+      ############################
+*/
+
+.information_footer_div /* Primary Div For The Information Footer */ {
+  padding-bottom: 30px;
+}
+
+.information_footer /* Primary CSS For The Information Footer */ {
+  padding: 25px;
+  display: flex;
+  background-color: #44275d;
+  justify-content: space-around;
+}
+
+.information_footer_info /* Controls the Information Section Located In The Primary Footer */ {
+  width: 18%;
+  color: white;
+  flex-wrap: wrap;
+  font-size: 32px;
+  text-align: left;
+}
+
+.information_footer_head /* Controls the Title Above The Content Located In The Footer */ {
+  width: 18%;
+  font-size: 42px;
+  text-align: center;
+  border-bottom: solid 3px #efd33b;
+  padding: 0px 0px 5px 0px;
+}
+
+.information_footer_content /* Controls the Content Section Beneath The Footer Head In The Primary Footer */ {
+  width: auto;
+  flex-wrap: wrap;
+  text-align: left;
+  padding: 0px 0px 12px 0px;
+}
+
+.information_footer_contact_text /* Controls The Text For The Company Contact Information */ {
+  width: 100%;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 0px 0px 15px;
+}
+
+.information_footer_image_placeholder_and_text /* Controls The Class That Holds The Footer Image Placeholders And Text */ {
+  padding: 0px;
+  display: flex;
+}
+
+/*
+      ############################
+      ##    Copyright Footer   ### 
+      ############################
+*/
+
+.copyright_footer_text {
+  margin: 25px;
+  font-size: 30px;
+  text-align: center;
+}
+
+/*
+      #############################
+      ##  Featured Destinations  ## 
+      #############################
+*/
+
+.featured_destinations_div {
+  display: flex;
+  padding: 50px 0px 35px 0px;
+  justify-content: space-around;
+}
+
+.featured_destinations_text /* The Body Text Located Within The Featured Destinations Columns */ {
+  padding: 15px;
+  font-size: 30px;
+  text-align: left;
+  border-left: solid #fff auto 3px;
+}
+
+.featured_destinations_background /* Featured Destinations Background Color ( Dark Purple ) */ {
+  height: auto;
+  padding-bottom: 50px;
+  background-color: #44275d;
+}
+
+.featured_destinations_header /* Featured Destinations Header */ {
+  margin: 0%;
+  font-size: 64px;
+}
+
+.featured_destinations_title /* featured Destinations Title */ {
+  margin: 50px;
+  color: #fff;
+  font-size: 120px;
+  vertical-align: top;
+  display: inline-block;
+  padding: 65px 20px 0px;
+  justify-content: center;
+  border-bottom: solid #efd33b 3px;
+}
+
+.featured_destinations_podiums /* Featured Destinations Podiums */ {
+  display: flex;
+  color: #fff;
+  padding: 70px 10px 20px 10px;
+  justify-content: space-around;
+}
+
+.featured_destinations_podiums_information /* 'Featured Destinations Podiums Information */ {
+  width: 31%;
+  height: auto;
+  border: 12px;
+  padding: 40px;
+  text-align: center;
+  border-radius: 12px;
+  box-sizing: border-box;
+  background-color: #5b3d79;
+}
+
+.featured_destinations_podiums_information p text /* 'Featured Destinations Podiums Information Paragraph Text */ {
+  border-left: 3px #dadada;
+}
+
+.featured_destinations_title /* The Title Text Located Within The Featured Destinations Columns */ {
+  margin: -60px;
+  font-size: 64px;
+}
+
+.featured_destinations_text /* The Body Text Located Within The Featured Destinations Columns */ {
+  padding: 15px;
+  font-size: 30px;
+  text-align: left;
+  border-left: solid #fff 3px;
+}
+
+.about_us_section {
+  margin-bottom: 60px;
+}
+
+.aboutustextbox {
+  width: 50%;
+  z-index: 10;
+  height: auto;
+  padding: 40px;
+  margin-left: 14%;
+  border-radius: 12px;
+  box-sizing: border-box;
+  background-color: #5b3d79;
+  border: 24px solid #44275d;
+}
+
+.ux {
+  height: auto;
+  padding-bottom: 50px;
+  background-color: #5b3d79;
+}
+
+.featured_destinations_button /* Featured Destinations Columns Buttons */ {
+  height: 50px;
+  width: 200px;
+  font-size: 25px;
+  color: #44275d;
+  border-radius: 12px;
+  background-color: #efd33b;
+}
+
+.purple_bar {
+  background-color: #5b3d79;
+  padding: 30px;
+}
+
+.hero_section {
+  background-image: url("https://images.unsplash.com/photo-1578973615934-8d9cdb0792b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80https://images.unsplash.com/photo-1578973615934-8d9cdb0792b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80");
+  background-color: #cccccc;
+  height: 500px;
+}
+.hero_nav {
+  display: flex;
+  justify-content: space-around;
+}
